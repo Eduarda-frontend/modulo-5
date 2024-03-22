@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,
+input,
+textarea{
+    font-family:"Markazi Text", serif;
+    font-size: 20px;
+}
+.container,
+section ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+header{
+    background-color: #993d99;
+    color: #fff;
+    padding: 16px;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav li,
+section ul li{
+    list-style: none;
+    padding-right: 16px;
+}
+
+header nav li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+header nav li a:hover{
+    text-decoration: underline;
+    color: #fff;
+    font-weight: bolder;
+}
+
+section{
+    padding: 16px;
+    color: rgb(85, 79, 79);
+}
+
+section .container{
+    align-items: center;
+}
+section div img{
+    height: 600px;
+    margin-right: 16px;
+}
+
+section h2,
+section ul li h4,
+section div h3{
+    font-family: "Rochester", cursive;;
+    margin-bottom: 16px;
+    color: #993d99;
+    font-size: 32px;
+}
+
+section div p{
+    margin-bottom: 16px;
+}
+
+.redes-sociais{
+    height: 24px;
+}
+
+.redes-sociais:hover{
+    height: 36px;
+}
+
+section ul li{
+    margin-bottom: 8px;
+}
+
+#produtos,
+footer{
+    background-color: rgb(240, 224, 231);
+}
+
+.produtos_imagens{
+    height: 250px;
+    width: 250px;
+}
+
+.produtos_lista-item{
+    display: flex;
+    width: 50%;
+}
+
+.produtos_especificações{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+section ul{
+    flex-wrap: wrap;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+
+section div input,
+section div textarea{
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+input:focus, textarea:focus{
+    outline-color: #993d99;
+}
+
+section div textarea{
+    resize: none;
+}
+
+section div button{
+    padding: 8px;
+    cursor: pointer;
+    border: none;
+}
+
+section div button:hover{
+    background-color:#993d99;
+    color: #fff;
+}
+
+#contatos .container{
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.contatos_redes-sociais a{
+    text-decoration: none;
+    align-self: flex-end;
+}
+
+footer{
+    padding: 8px;
+    text-align: center;
+}
